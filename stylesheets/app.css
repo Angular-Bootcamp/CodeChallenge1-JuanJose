@@ -28,11 +28,38 @@ header, footer{
 	left: 0px;
 	padding: 10px;
 }
-.pokemon-image{
+.description-section .pokemon-image{
 	width: 40%;
 	float: left;
 }
-.description{
+.description-section .description{
 	width: 60%;
 	float:left;
+	color: #949494;
+	padding: 5px;
+}
+
+.description-section .title{
+	font-size: 18px;
+	margin-top: 10px;
+	color: #E91E63;
+	font-weight: bold;
+}
+
+.tag{
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	color:white;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.tag.grass{
+	background-color: #97D077;
+}
+.tag.poison{
+	background-color: #A680B8;
+}
+.tag.bug{
+	background-color: #67AB9F;
 }
