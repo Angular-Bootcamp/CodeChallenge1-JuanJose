@@ -1,10 +1,38 @@
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+}
+
 
 header, footer{
 	background-color: #333;
 	color: #ddd;
 	padding:  20px;
 	text-align: center;
+}
+
+.description-header{
+	background: #E91E63;
+	color:white;
+	font-size: 18px;
+	padding: 10px;
+	font-weight: bold;
+}
+.description-header .go-back{
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	padding: 10px;
+}
+.pokemon-image{
+	width: 40%;
+	float: left;
+}
+.description{
+	width: 60%;
+	float:left;
 }
