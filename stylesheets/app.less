@@ -25,12 +25,18 @@ header, footer{
 .description-header .go-back{
 	position: absolute;
 	top: -10px;
-	left: 0px;
-	padding: 10px;
+	left: -10px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.description-header .go-back:hover{
+	background-color: #C2185B;
 }
 .description-section .pokemon-image{
 	width: 40%;
 	float: left;
+	text-align: center;
+	margin-top: 20px;
 }
 .description-section .description{
 	width: 60%;
@@ -76,6 +82,9 @@ header, footer{
 	font-size:16px;
 	margin-bottom: 0px;
 }
+.table td{
+	padding-left: 20px !important;
+}
 
 .evolution{
 	border-bottom: 1px solid #ddd;
@@ -97,6 +106,12 @@ header, footer{
 .evolution-image{
 	width: 30%;
 	float: left;
+	text-align: center;
+}
+.evolution-image img{
+	border: 1px solid #999999;
+	padding: 3px 10px;
+	margin: 10px;
 }
 .evolution-info{
 	width: 70%;
